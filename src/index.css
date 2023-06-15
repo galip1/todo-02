@@ -60,7 +60,6 @@ body {
   font: 1.6rem/1.25 Arial, sans-serif;
   background-color: #f5f5f5;
   color: #4d4d4d;
-  border: 1px solid red;
 }
 @media screen and (min-width: 620px) {
   body {
@@ -70,6 +69,7 @@ body {
 }
 /*END RESETS*/
 /* GLOBAL STYLES */
+
 .form-group > input[type="text"] {
   display: inline-block;
   margin-top: 0.4rem;
@@ -182,8 +182,8 @@ body {
   text-align: center;
 }
 .input__lg {
-  padding: 2rem;
   border: 2px solid #000;
+  padding: 1.5rem 0;
 }
 .input__lg:focus {
   border-color: #4d4d4d;
